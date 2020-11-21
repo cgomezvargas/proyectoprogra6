@@ -62,6 +62,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="PantallaFacturacion.resx">
       <DependentUpon>PantallaFacturacion.cs</DependentUpon>
+	</EmbeddedResource>
+    <Compile Include="PantallaConfiguracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaConfiguracion.Designer.cs">
+      <DependentUpon>PantallaConfiguracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PantallaConfiguracion.resx">
+      <DependentUpon>PantallaConfiguracion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
